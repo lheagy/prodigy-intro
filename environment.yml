@@ -1,0 +1,20 @@
+name: prodigy-intro
+
+channels:
+  - conda-forge
+dependencies:
+  - bokeh
+  - cartopy
+  - cmocean
+  - dask
+  - h5netcdf
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - netcdf4
+  - numpy
+  - pandas
+  - panel
+  - pooch
+  - python=3.9
+  - xarray
