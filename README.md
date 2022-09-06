@@ -3,7 +3,7 @@ Introduction to using Python for working with Network Common Data Form ([NetCDF]
 
 ## Getting Python on your machine
 
-If you are just getting acquainted with Python, I highly recommend the [Transform 2022 tutorial: Getting Started with Python](https://transform.softwareunderground.org/2022-getting-started-python).
+If you are just getting acquainted with Python, I recommend the [Transform 2022 tutorial: Getting Started with Python](https://transform.softwareunderground.org/2022-getting-started-python).
 
 I recommend using either [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [miniforge](https://github.com/conda-forge/miniforge#miniforge) to install python on your machine. These distributions are lightweight distributions of the package mananger [Conda](https://docs.conda.io/en/latest).
 
