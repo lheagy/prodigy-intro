@@ -5,7 +5,7 @@ Introduction to using Python for working with Network Common Data Form ([NetCDF]
 
 If you are just getting acquainted with Python, I recommend the [Transform 2022 tutorial: Getting Started with Python](https://transform.softwareunderground.org/2022-getting-started-python).
 
-I recommend using either [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [miniforge](https://github.com/conda-forge/miniforge#miniforge) to install python on your machine. These distributions are lightweight distributions of the package mananger [Conda](https://docs.conda.io/en/latest).
+I recommend using [miniforge](https://github.com/conda-forge/miniforge#miniforge) to install python on your machine. This distribution is a lightweight package manager, and it is fast! But many people are also comfortable and familiar with [Conda](https://docs.conda.io/en/latest) which will work fine for this too. 
 
 ## Using Git and GitHub 
 
@@ -29,7 +29,7 @@ You will then need to navigate to the `prodigy-intro` directory
 cd prodigy-intro
 ```
 
-and create the `prodigy-intro` environment. This will install the specific packages that we need for this tutorial. For more information on environments, see the [Conda Managing Environments Docs](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). 
+and create the `prodigy-intro` environment. This will install the specific packages that we need for this tutorial. For more information on environments, see the [Conda Managing Environments Docs](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). (If you installed miniforge, replace `conda` with `mamba` in the following lines) 
 
 ```
 conda env create -f environment.yml
