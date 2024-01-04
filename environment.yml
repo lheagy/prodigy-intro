@@ -1,5 +1,4 @@
 name: prodigy-intro
-
 channels:
   - conda-forge
 dependencies:
@@ -16,5 +15,5 @@ dependencies:
   - pandas
   - panel
   - pooch
-  - python=3.9
+  - python=3.10
   - xarray
